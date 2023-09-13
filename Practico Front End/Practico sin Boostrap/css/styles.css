@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.barra_nav {
+  background-color: rgb(237, 240, 243);
+  padding: 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  margin: auto;
+}
+
+.barra_nav a {
+  font-size: 18px;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.barra_nav a:hover {
+  color: rgb(150, 103, 143);
+}
+
+.buscar_boton {
+  border-radius: 4px;
+  font-size: 15px;
+  background-color: #3b3952;
+  border: none;
+  width: 60px;
+  height: 25px;
+  color: azure;
+}
+.buscar_boton:hover {
+  background-color: rgb(109, 100, 197);
+}
+.barra_busq {
+  height: 25px;
+  border-radius: 4px;
+  border: none;
+}
+
+.carrusel {
+  width: 1240px;
+  height: auto;
+  margin: 4px auto 0;
+  overflow: hidden;
+}
+
+.carrusel ul {
+  display: flex;
+  padding: 0%;
+  width: 400%;
+  animation: carrusels 16s infinite alternate ease-in-out;
+}
+
+.carrusel li {
+  list-style: none;
+  width: 100%;
+}
+
+.carrusel img {
+  width: 100%;
+}
+
+@keyframes carrusels {
+  0% {
+    margin-left: 0%;
+  }
+  20% {
+    margin-left: 0%;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+
+.productos {
+  padding: 12px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  text-align: center;
+}
+
+.productos p {
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  padding: 6px;
+}
+.productos button {
+  background-color: #34a853;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 42px;
+  justify-content: center;
+  margin: auto;
+}
+.productos button:hover{
+  background-color: #1bce4b;
+}
+
+.prod1 span {
+  color: rgb(15, 124, 64);
+  display: flex;
+  justify-content: center;
+  padding-bottom: 8px;
+
+
+}
+
+
+.foot {
+  padding: 40px;
+  background-color: rgb(237, 240, 243);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.redes {
+  padding-bottom: 40px;
+  font-size: 15px;
+}
+.info a {
+  text-decoration: none;
+}
+
+.logo a {
+  padding-bottom: 30px;
+}
+
+.foot p {
+  padding-top: 4px;
+  color: rgb(133, 120, 120);
+  font-size: 12px;
+}
+
+.elem_footer {
+  display: flex;
+  margin: auto;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.textfinal {
+  font-size: 10px;
+  color: black;
+}
